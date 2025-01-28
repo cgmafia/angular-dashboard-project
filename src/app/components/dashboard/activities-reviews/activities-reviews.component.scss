@@ -1,0 +1,24 @@
+.activities-reviews-container {
+  background-color: #f8f9fa;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  h3 {
+      margin: 0 0 10px 0;
+  }
+   .reviews-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 10px;
+   }
+    .answer-reviews-button {
+          background-color: #ff9800;
+          color: white;
+          border: none;
+          padding: 10px 15px;
+          cursor: pointer;
+          align-self: flex-end;
+           border-radius: 4px;
+     }
+}

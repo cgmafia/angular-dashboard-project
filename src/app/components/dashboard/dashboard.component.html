@@ -1,0 +1,20 @@
+<div class="dashboard-container" *ngIf="!loading">
+  <h1>Dashboard</h1>
+
+  <div class="dashboard-overview">
+    <app-dashboard-stats
+      [numberOfViews]="dashboardData.numberOfViews"
+      [numberOfReviews]="dashboardData.numberOfReviews"
+      [numberOfCheckIns]="dashboardData.numberOfCheckIns"
+    ></app-dashboard-stats>
+  </div>
+
+  <div class="dashboard-content">
+    <app-geographic-data [locations]="dashboardData.locations"></app-geographic-data>
+    <app-activities-reviews [reviews]="dashboardData.reviews"></app-activities-reviews>
+  </div>
+</div>
+
+<div class="loading-spinner" *ngIf="loading">
+    Loading dashboard data...
+  </div>
