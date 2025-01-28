@@ -1,27 +1,83 @@
-# DogstrDashboardApp
+# Angular Dashboard Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.0.
+This is a simple dashboard application built using **Angular v17** and **Angular Material UI**. The dashboard features a placeholder pie chart (currently an image) which will be replaced with a real-time graph using a visualization library in a future update.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Features
 
-## Code scaffolding
+- **Dashboard Layout**: Clean and modern UI using Angular Material.
+- **Pie Chart Placeholder**: Displays a static image for now (to be replaced with a real-time visualization).
+- **Responsive Design**: Works seamlessly on desktop and mobile devices.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## Technologies Used
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Angular v17**: Framework for building the application.
+- **Angular Material**: For pre-built UI components.
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Project Setup
 
-## Running end-to-end tests
+Follow the instructions below to set up and run the project locally.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Prerequisites
 
-## Further help
+- **Node.js** (v16 or higher)
+- **Angular CLI** (v17 or higher)
+- A code editor (e.g., VS Code)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Installation Steps
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   ```
+
+2. Navigate to the project folder:
+   ```bash
+   cd angular-dashboard
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Run the development server:
+   ```bash
+   ng serve
+   ```
+
+5. Open the application in your browser:
+   ```
+   http://localhost:4200
+   ```
+
+---
+
+## Screenshot
+
+![Dashboard Screenshot](src/assets/screenshot.png)
+
+> **Note**: Ensure the screenshot is placed in the `src/assets/` folder with the filename `screenshot.png`. Update the path if necessary.
+
+---
+
+## Future Enhancements
+
+- Replace the static pie chart image with a real-time graph using a visualization library (e.g., Chart.js, D3.js, or ApexCharts).
+- Add more widgets and data visualizations.
+- Enhance the styling and animations.
+
+---
+
+
+## Contact
+
+For any queries, feel free to reach out:
+
+- **Name**: Anand Venkataraman  
+- **Website**: [anandvenky.com](https://anandvenky.com)
